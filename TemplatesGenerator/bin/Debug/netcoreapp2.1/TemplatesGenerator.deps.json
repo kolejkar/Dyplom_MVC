@@ -1,0 +1,237 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "TemplatesGenerator/1.0.0": {
+        "dependencies": {
+          "Dyplom": "1.0.0"
+        },
+        "runtime": {
+          "TemplatesGenerator.dll": {}
+        }
+      },
+      "Dyplom/1.0.0": {
+        "dependencies": {
+          "System.Web.Optimization": "1.1.0.0",
+          "System.Web.Mvc": "5.2.7.0",
+          "System.Web.Http": "5.2.7.0",
+          "Syncfusion.EJ2": "18.4500.0.33",
+          "System.Web.Http.WebHost": "5.2.7.0",
+          "Microsoft.Web.Infrastructure": "1.0.0.0",
+          "System.Web.WebPages": "3.0.0.0",
+          "System.Web.WebPages.Razor": "3.0.0.0",
+          "System.Web.Razor": "3.0.0.0",
+          "System.Net.Http.Formatting": "5.2.7.0",
+          "System.Web.WebPages.Deployment": "3.0.0.0"
+        },
+        "runtime": {
+          "Dyplom.dll": {}
+        }
+      },
+      "System.Web.Optimization.Reference/1.1.0.0": {
+        "runtime": {
+          "System.Web.Optimization.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.40211.0"
+          }
+        },
+        "resources": {
+          "pl/System.Web.Optimization.resources.dll": {
+            "locale": "pl"
+          }
+        }
+      },
+      "System.Web.Mvc.Reference/5.2.7.0": {
+        "runtime": {
+          "System.Web.Mvc.dll": {
+            "assemblyVersion": "5.2.7.0",
+            "fileVersion": "5.2.61128.0"
+          }
+        },
+        "resources": {
+          "pl/System.Web.Mvc.resources.dll": {
+            "locale": "pl"
+          }
+        }
+      },
+      "System.Web.Http.Reference/5.2.7.0": {
+        "runtime": {
+          "System.Web.Http.dll": {
+            "assemblyVersion": "5.2.7.0",
+            "fileVersion": "5.2.61128.0"
+          }
+        },
+        "resources": {
+          "pl/System.Web.Http.resources.dll": {
+            "locale": "pl"
+          }
+        }
+      },
+      "Syncfusion.EJ2.Reference/18.4500.0.33": {
+        "runtime": {
+          "Syncfusion.EJ2.dll": {
+            "assemblyVersion": "18.4500.0.33",
+            "fileVersion": "18.4500.0.33"
+          }
+        }
+      },
+      "System.Web.Http.WebHost.Reference/5.2.7.0": {
+        "runtime": {
+          "System.Web.Http.WebHost.dll": {
+            "assemblyVersion": "5.2.7.0",
+            "fileVersion": "5.2.61128.0"
+          }
+        },
+        "resources": {
+          "pl/System.Web.Http.WebHost.resources.dll": {
+            "locale": "pl"
+          }
+        }
+      },
+      "Microsoft.Web.Infrastructure.Reference/1.0.0.0": {
+        "runtime": {
+          "Microsoft.Web.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.20105.407"
+          }
+        }
+      },
+      "System.Web.WebPages.Reference/3.0.0.0": {
+        "runtime": {
+          "System.Web.WebPages.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.61128.0"
+          }
+        },
+        "resources": {
+          "pl/System.Web.WebPages.resources.dll": {
+            "locale": "pl"
+          }
+        }
+      },
+      "System.Web.WebPages.Razor.Reference/3.0.0.0": {
+        "runtime": {
+          "System.Web.WebPages.Razor.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.61128.0"
+          }
+        },
+        "resources": {
+          "pl/System.Web.WebPages.Razor.resources.dll": {
+            "locale": "pl"
+          }
+        }
+      },
+      "System.Web.Razor.Reference/3.0.0.0": {
+        "runtime": {
+          "System.Web.Razor.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.61128.0"
+          }
+        },
+        "resources": {
+          "pl/System.Web.Razor.resources.dll": {
+            "locale": "pl"
+          }
+        }
+      },
+      "System.Net.Http.Formatting.Reference/5.2.7.0": {
+        "runtime": {
+          "System.Net.Http.Formatting.dll": {
+            "assemblyVersion": "5.2.7.0",
+            "fileVersion": "5.2.61128.0"
+          }
+        },
+        "resources": {
+          "pl/System.Net.Http.Formatting.resources.dll": {
+            "locale": "pl"
+          }
+        }
+      },
+      "System.Web.WebPages.Deployment.Reference/3.0.0.0": {
+        "runtime": {
+          "System.Web.WebPages.Deployment.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.61128.0"
+          }
+        },
+        "resources": {
+          "pl/System.Web.WebPages.Deployment.resources.dll": {
+            "locale": "pl"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TemplatesGenerator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dyplom/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Web.Optimization.Reference/1.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Web.Mvc.Reference/5.2.7.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Web.Http.Reference/5.2.7.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Syncfusion.EJ2.Reference/18.4500.0.33": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Web.Http.WebHost.Reference/5.2.7.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Web.Infrastructure.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Web.WebPages.Reference/3.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Web.WebPages.Razor.Reference/3.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Web.Razor.Reference/3.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Net.Http.Formatting.Reference/5.2.7.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Web.WebPages.Deployment.Reference/3.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

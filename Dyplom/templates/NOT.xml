@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<LogicSymbol xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>NOT</name>
+  <symbolFile>/images/NOT.png</symbolFile>
+  <connectPoints>
+    <ConnectPoint>
+      <width>1</width>
+      <height>0.5</height>
+      <connectType>output</connectType>
+    </ConnectPoint>
+    <ConnectPoint>
+      <width>0</width>
+      <height>0.5</height>
+      <connectType>input</connectType>
+    </ConnectPoint>
+  </connectPoints>
+</LogicSymbol>

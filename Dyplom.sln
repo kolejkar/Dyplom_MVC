@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1300
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dyplom", "Dyplom\Dyplom.csproj", "{E3AE3175-FF9D-416D-9B85-E0BFBB5312B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplatesGenerator", "TemplatesGenerator\TemplatesGenerator.csproj", "{9CC3340F-E05D-47A8-866F-A804988956DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3AE3175-FF9D-416D-9B85-E0BFBB5312B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3AE3175-FF9D-416D-9B85-E0BFBB5312B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3AE3175-FF9D-416D-9B85-E0BFBB5312B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3AE3175-FF9D-416D-9B85-E0BFBB5312B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CC3340F-E05D-47A8-866F-A804988956DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CC3340F-E05D-47A8-866F-A804988956DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CC3340F-E05D-47A8-866F-A804988956DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CC3340F-E05D-47A8-866F-A804988956DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {994844BD-102A-467D-9F62-D6882D794962}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,62 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- @Html.ActionLink("Diagram", "Diagram", "Diagram") -->
+<h2>Edytor układów logicznych</h2>
+
+@using Syncfusion.EJ2
+@using Syncfusion.EJ2.Diagrams
+@using Dyplom.Controllers
+
+<div>
+    <p>
+        Wpisz nazwę schematu, aby go zapisać lub wczytać:
+        @Html.EJS().TextBox("name").Render()
+        @Html.EJS().Button("save").Click("savediag").Content("Zapisz diagram").Render()
+        @Html.EJS().Button("load").Click("loaddiag").Content("Wczytaj diagram").Render()
+    </p>
+    <div id="Palette-Area" style="width:20%;float:left">
+        @(Html.EJS().SymbolPalette("symbolPalette")
+                                            .Width("100%")
+                                            .Height("700px")
+                                            .SymbolWidth(70)
+                                            .SymbolHeight(70)
+                                            .Palettes(ViewBag.Palette)
+                                            .Render()
+        )
+    </div>
+    <div id="Diagram-Area" style="width:calc(100% - 20%); float:left">
+        @(Html.EJS().Diagram("container")
+                                 .Width("100%")
+                                 .Height("700px")
+                                 //.Nodes(ViewBag.nodes)
+                                 //.Connectors(ViewBag.connectors)
+                                 .Render()
+        )
+    </div>
+</div>
+<script type="text/javascript">
+    function savediag()
+    {
+        var diagramElement = document.getElementById('container');
+        var diagram = diagramElement.ej2_instances[0];
+        var saveData;
+        //returns serialized string of the Diagram
+        saveData = diagram.saveDiagram();
+        localStorage.setItem(document.getElementById('name').value, saveData);
+    }
+    function loaddiag()
+    {
+        var diagramElement = document.getElementById('container');
+        var diagram = diagramElement.ej2_instances[0];
+
+        var saveData = localStorage.getItem(document.getElementById('name').value);
+        if (saveData != null) {
+            //Loads the Diagram from saved json data
+            diagram.loadDiagram(saveData);
+        }
+
+    }
+</script>
