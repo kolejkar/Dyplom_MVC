@@ -3,6 +3,7 @@
 
 <p align="left">
   Aplikacja na przeglądarki internetowe, pozwala tworzyć proste układy logiczne.
+  <a href=https://apd.pbs.edu.pl/diplomas/24914/>Link do strony archiwum uczelni z moją pracą</a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
